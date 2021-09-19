@@ -16,7 +16,6 @@ body {
     height: 100%;
     width: 90%;
     background: rgba(42, 49, 42, 0.8);
-    ;
     display: none;
     z-index: 10;
 }
@@ -124,21 +123,15 @@ body {
 
 .spaceship {
     height: 110px;
-
 }
 
 @keyframes slide {
     0% {
-        top: -100px
+        top: -100px;
     }
-
-    ;
-
     1000% {
-        top: 500px
-    }
-
-    ;
+        top: 500px;
+    }  
 }
 
 .btn {
