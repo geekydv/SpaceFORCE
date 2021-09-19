@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceForce</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="popup">
+        <div class="contentBox">
+            <div class="plot">
+                <h1>SpaceFORCE</h1>
+                <p>
+                    A Supernova explosion has happened in the Andromeda-our neighboring galaxy. The after-effects of the
+                    Supernova are felt in our galaxy too and has caused a devastating cosmos disruption. All the
+                    Spacecrafts have also been affected by this and some of them have lost their connection with the
+                    Earth.
+                    All the Nations have formed an alliance to recover the Spacecrafts. A Special Team has been formed
+                    consisting of the world’s best- Cosmonauts, UAV Specialists and Tactical Specialists.
+                    You are <b>Namikaze Minato</b>, A UAV Specialist from the Space Ops Team. You have been assigned the
+                    task
+                    of making sure the successful recovery of <b>Kyuubi TL-9</b>, which is one of the most expensive
+                    spacecrafts equipped with advanced technologies and has its own A.I. programmed for proper handling
+                    and functioning of the Spacecraft.It is known for the in-depth research, assessment and exploration
+                    of outer space it can perform while still being unmanned.Due to the disruption,The connection with
+                    the spacecraft is weakened and the A.I is malfunctioning,For safety reasons,The control was switched
+                    from auto-pilot to manual control.
+                    Your Task is to handle the Kyuubi TL-9 and navigate it through the outer space until the connection
+                    is formed again. It is assumed that this task is nearly impossible, So the top priority task you
+                    have is to handle the spacecraft until the technical team manages to retrieve the data.
+                    Get Ready,Begin your journey and accomplish the task.
+                    Use <b>ARROW KEYS</b> for maneuvering the SpaceCraft. <br><b>Arrow Left</b> to <b>dodge left</b> and
+                    <b>Arrow Right</b> to <b>dodge right</b>.
+                </p>
+                <a href="#" class="playgame">Play</a>
+            </div>
+        </div>
+    </div>
+    <div id="game" class="game">
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="character">
+            <img src="./assets/spaceship.png" alt="spaceship" class="spaceship">
+        </div>
+        <div id="block" class="block">
+            <img src="./assets/meteor.png" alt="meteor" class="meteor">
+        </div>
+    </div>
+    <audio id="turn" controls style="display:none">
+        <source src="./assets/turn.wav" type="audio/wav">
+    </audio>
+    <audio id="bgmusic" controls style="display:none">
+        <source src="./assets/bg_music.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="gameover" controls style="display:none" preload="auto">
+        <source src="./assets/game_over.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="victory" controls style="display:none" preload="auto">
+        <source src="./assets/victory.mp3" type="audio/mpeg">
+    </audio>
+    <div id="btn" class="btn"><button type="submit" id="inputbutton" onclick="start()"></button></div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
