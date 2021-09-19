@@ -3,8 +3,8 @@ SpaceFORCE is a small web-game inspired by Space Shooters.
 
 # Tech-Stack
 1)HTML  
-2)CSS
-3)JavaScript
+2)CSS \
+3)JavaScript \
 4)IDE-Visual Studio Code
 
 ##  About SpaceFORCE
