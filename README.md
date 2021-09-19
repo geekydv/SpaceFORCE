@@ -1,5 +1,6 @@
 # SpaceFORCE
 SpaceFORCE is a small web-game inspired by Space Shooters.
+Play @ https://geekydv.github.io/SpaceFORCE/
 
 # Tech-Stack
 1)HTML  
